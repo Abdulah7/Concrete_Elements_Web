@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication2.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin: 0 auto">
+
+
+    <form id="form1" runat="server" style="background-color: #80FFFF">
+      <div style="position:absolute; top: 0px; height: 37px; text-align:center; width: 488px; left: 579px; background-color:red; font-size: xx-large">
+
+       
+           
+
+        <asp:Menu ID="Menu1" runat="server" ForeColor="White"   Orientation="Horizontal">
+            <StaticMenuStyle  CssClass="MenuStyle" />
+            <StaticMenuItemStyle  BorderColor="White" BorderWidth="1px" BorderStyle="Solid"/>
+            <StaticSelectedStyle  BackColor="Black"/>
+               <Items>
+                   <asp:MenuItem NavigateUrl="~/WebForm1.aspx" Text="Početna" Value="Početna"  >
+
+                   </asp:MenuItem >
+
+                   <asp:MenuItem NavigateUrl="~/WebForm2.aspx" Text="Proizvodi" Value="Proizvodi" Selected="true">
+                 
+
+                   </asp:MenuItem>
+            
+                      <asp:MenuItem NavigateUrl="~/WebForm12.aspx" Text="Lokacija" Value="Lokacija">
+                 
+
+                   </asp:MenuItem>
+               <asp:MenuItem NavigateUrl="~/WebForm13.aspx" Text="Kontakt" Value="Kontakt">
+                 
+
+                   </asp:MenuItem>
+            
+               </Items>
+
+            </asp:Menu>
+              </div>
+
+        <br />
+        <br />
+        <br />
+
+        <br />
+
+  
+
+        <div class="e1" style="background-color: #80FFFF; margin-top: 0px;">
+            <img src="Images/slik beton.JPG" style="border-width: thin; border-color: #0000FF; width: 1263px; margin-left: 160px; margin-top: 0px; margin-right: 95px;" />
+            <br />
+            <img src="Images/slike.JPG" style="border-width: thin; border-color: #0000FF; margin-left: 160px; width: 236px; height: 219px" />
+            <p style="height: 21px">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28 godina tradicije kvaliteta
+            </p>
+            <h3 style="margin-left: 163px; width: 252px; height: 20px;">Kupujmo domaće
+                <img src="Images/slika1.JPG" style="border-width: thin; border-color: #0000FF; width: 212px; margin-left: 0px" />
+            </h3>
+            <p style="margin-left: 163px; width: 252px; height: 20px;">
+                &nbsp;
+            </p>
+            <h3 style="margin-left: 163px; width: 272px;">&nbsp;</h3>
+            <h3 style="margin-left: 163px; width: 272px;">&nbsp;</h3>
+            <p style="margin-left: 163px; width: 259px;">
+                Za&nbsp;&nbsp;&nbsp; proizvodnju&nbsp;&nbsp; svih&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nasih&nbsp;&nbsp;&nbsp; proizvoda koristimo&nbsp;&nbsp; se&nbsp; kvalitetnim&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; agregatom&nbsp;&nbsp;&nbsp; iz vlastitog&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kamenloma&nbsp; uz&nbsp;&nbsp; garanciju od 30 godina.
+                        <img src="Images/slika2.JPG" style="margin-left: 0px; width: 236px; height: 264px;" />
+            </p>
+            <a style="margin-left: 163px" href="Images/katalog_highres.pdf" runat="server">OnLine Katalog</a>
+            <br />
+            &nbsp;
+        </div>
+
+        <div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Users\Abdulah\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Abdulah\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\WebApplication2.dll
+C:\Users\Abdulah\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Abdulah\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\obj\Release\WebApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Abdulah\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\obj\Release\WebApplication2.dll
+C:\Users\Abdulah\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\obj\Release\WebApplication2.pdb
